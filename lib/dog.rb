@@ -9,10 +9,8 @@ class Dog
     @@all << self
   end
   
-  def self.print_all
-    @@all.collect do |name|
-      puts dog.name
-    end
+  def self.all
+    @@all
   end
   
   
