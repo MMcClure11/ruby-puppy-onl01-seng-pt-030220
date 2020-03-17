@@ -1,5 +1,7 @@
 class Dog
   
+  attr_reader :name
+  
   @@all = []
   
   def initialize(name)
@@ -11,8 +13,5 @@ class Dog
     @@all
   end
   
-  def name
-    @name
-  end
   
 end
