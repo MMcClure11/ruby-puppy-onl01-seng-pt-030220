@@ -11,4 +11,8 @@ class Dog
     @@all
   end
   
+  def name
+    @name
+  end
+  
 end
